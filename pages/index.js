@@ -45,7 +45,7 @@ const Home = () => {
     };
 
     return (
-        <Layout pageTitle="Home">
+        <Layout pageTitle="Home" containerClassName="home-page">
             <div>
                 <SearchBar onSearch={getLocationData} />
                 <MapAndListView rawSiteData={rawSiteData} />
